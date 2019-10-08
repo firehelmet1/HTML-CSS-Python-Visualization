@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Import Bootstrap, CSS Style Sheet -->
+<head>
+  <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+  <title >Comparsion vs. X</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<!-- Install NavBar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">
+        <img src="Images/LATTITUDE.png" alt="Lattitude Brand">
+      </a>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="comparison.html">Comparison</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="data.html">Data</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Plots
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="Images/max_temp.png">Max_Temp vs. Latitude</a>
+                <a class="dropdown-item" href="Images/wind_speed.png">Wind_Speed vs. Latitude</a>
+                <a class="dropdown-item" href="Images/humidity.png">Humidity vs. Latitude</a>
+                <a class="dropdown-item" href="Images/cloudiness.png">Cloudiness vs. Latitude</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+<body background="white"; >
+
+<div class="container" style="background-color: white;">
+<!-- Dedicated visualization palette for the different observations -->
+    <div class="row" style="margin-bottom: 5px; margin-left: 40px; margin-top: 70px;">
+        <div class="col" style="background-color: white;">
+        <h1 style="margin-left: 40px; font-size:25; font-weight:bolder; color:teal;"> Comparison vs. X </h1>
+        <h3 style="margin-left: 12px; font-size:20; color: gray;"> Click on any chart for more detail</h3>
+        </div>
+      </div>
+
+  <div class="row" style="margin-bottom: 40px; margin-left: 40px";>
+    <div class="col">
+        <a href="max_temp.html"> 
+        <img src="Images/max_temp.png" style="height:300px; width:450px; margin-left:10px; margin-top: 20px;" > </a>
+    </div>
+    <div class="col">
+        <a href="humidity.html"> 
+        <img src="Images/humidity.png" style="height:300px; width:450px; margin-right:10px; margin-top: 20px;" /> </a>
+    </div>
+  </div>
+
+  <div class="row" style="margin-bottom: 40px; margin-left: 40px";>
+      <div class="col">
+        <a href="cloudiness.html">
+        <img src="Images/cloudiness.png" style="height:300px; width:450px; margin-left:10px; margin-bottom: 20px;" /> </a>
+      </div>
+      <div class="col">
+          <a href="wind_speed.html"> 
+          <img src="Images/wind_speed.png" style="height:300px; width:450px; margin-right:10px; margin-bottom: 20px;" /> </a>
+      </div>
+
+  </div>
+</div>
+</body>
+
+<footer id="footer"> 
+    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. (c) 2019, Ron Javor  </p>
+  </footer>
+
+</html>

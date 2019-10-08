@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Import Bootstrap, CSS Style Sheet -->
+<head>
+  <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+  <title >Wind Speed Plot</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Install NavBar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">
+        <img src="Images/LATTITUDE.png" alt="Lattitude Brand">
+      </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown" style="text-align: right;">
+      <ul class="navbar-nav ml-auto" >
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="comparison.html">Comparison</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="data.html">Data</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dropdown link
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="comparison.html">Comparison</a>
+            <a class="dropdown-item" href="data.html">Data</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+<div class="container">
+
+    <div class="row" style="margin-bottom: 5px; margin-top: 40px;">
+        <!-- Cell displaying wind speed observations -->
+      <div class="col-md-5" style="background-color: white;">
+        <h1 style="margin-left: 10px; font-size: 30px; font-weight:bolder; color:teal; margin-right: auto;"> Wind Speed vs. Latitude </h1>
+        <hr>
+        <img src="images/wind_speed.png" width="450" height="300" alt="max temp vs. latitude">
+        <p>The scatter plot above illustrates Wind Speed vs. Latitude from weather measurement stations around the globe. </p>
+        <hr>
+        <p>Wind Speed distributes fairly even across latitude but tends to inversely correlate to humidity. </p> 
+        <img src="images/windspeed_humidity.png" width="450" height="300" alt="max temp vs. latitude">
+      </div>
+
+      <div class="col md-1" style="background-color: lightgray;">
+      </div>
+    <!-- Visualization Palette -->
+      <div class="col-md-6" style="background-color: white;"> 
+          <h2 style="color: teal; font-weight: bold;"> Visualization Palette <img src="Images/pallete.jpg" style="height:20px; width:20px;">  </h2>
+          <hr>
+          <a href="max_temp.html"> <img src="Images/max_temp.png" style="height:250px; width:250px; margin-left:1px; margin-bottom: 2px"> </a>
+          <a href="humidity.html"> <img src="Images/humidity.png" style="height:250px; width:250px; margin-left:1px; margin-bottom: 2px"> </a>
+          <a href="cloudiness.html"> <img src="Images/cloudiness.png" style="height:250px; width:250px; margin-left:1px; margin-bottom: 2px"> </a>
+          <a href="wind_speed.html"> <img src="Images/wind_speed.png" style="height:250px; width:250px; margin-left:1px; margin-bottom: 2px"> </a>
+      </div>
+
+    </div>
+
+  <div class="row ml-auto" style="margin-bottom: 100px;">
+    <div class="col" style="padding: 10px;">
+    </div>
+  </div>
+
+</div>
+
+
+<footer id="footer"> 
+    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. (c) 2019 Ron Javor  </p>
+  </footer>
+
+</body>
+</html>
