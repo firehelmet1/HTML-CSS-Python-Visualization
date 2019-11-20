@@ -1,7 +1,7 @@
 # HTML CSS - Web Visualization Dashboard (Latitude)
 
 
-!(Images/landingResize.png)(Images/landingResize.png)
+![resize](Images/landingResize.png)
 
 
 ## Latitude - Latitude Analysis Dashboard with Attitude
@@ -16,8 +16,8 @@ In building this dashboard, I created individual pages for each plot and a means
 This section contains screenshots of each page that must be built, at varying screen widths. These are a guide; you can meet the requirements without having the pages look exactly like the below images.
 
 
-!(Home Page)(Images/HomePage.png)
+![Home Page](Images/HomePage.png)
 
-!(Raw Data)(Images/RawData.png)
+![Raw Data](Images/RawData.png)
 
-!(Example)(Images/Example.png)
+![Example](Images/Example.png)
