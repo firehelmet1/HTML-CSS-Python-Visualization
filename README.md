@@ -16,8 +16,8 @@ In building this dashboard, I created individual pages for each plot and a means
 This section contains screenshots of each page that must be built, at varying screen widths. These are a guide; you can meet the requirements without having the pages look exactly like the below images.
 
 
-![Home Page](Images/HomePage.png)
+![Home Page](Images/HomePage.PNG)
 
-![Raw Data](Images/RawData.png)
+![Raw Data](Images/RawData.PNG)
 
-![Example](Images/Example.png)
+![Example](Images/Example.PNG)
